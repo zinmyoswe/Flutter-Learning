@@ -15,15 +15,8 @@ class Home extends StatelessWidget {
 
       ),
       body: Center(
-        child: Text(
-          'Welcome our Delivery Service',
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.black,
-            fontFamily: 'Abel',
-          ),
+        child: Image(
+            image: AssetImage('assets/a (2).jpg'),
         ),
 
       ),
