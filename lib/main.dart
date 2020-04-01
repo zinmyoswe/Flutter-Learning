@@ -14,11 +14,22 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.black,
 
       ),
-          body: Container(
-        padding: EdgeInsets.fromLTRB(20.0,50.0,40.0,100.0),
-        margin: EdgeInsets.all(30.0),
-        color: Colors.yellow[400],
-        child: Text('Hello World'),
+      body: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: <Widget>[
+          Text('hello, world'),
+          FlatButton(
+            onPressed: (){},
+            color: Colors.lightGreen[400],
+            child: Text('Shop'),
+          ),
+          Container(
+            color: Colors.lightBlue[200],
+            padding: EdgeInsets.all(30.0),
+            child: Text('Container Flutter'),
+          ),
+        ],
       ),
 
 
